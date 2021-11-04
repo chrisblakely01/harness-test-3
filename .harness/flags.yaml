@@ -15,5 +15,11 @@ featureFlags:
           value: "true"
         - identifier: "false"
           value: "false"
+      environments:
+      - identifier: test_nonproduction
+        default:
+          onVariation: "true"
+          offVariation: "false"
+        state: "off"
   projectIdentifier: chris_demo
   orgIdentifier: default
